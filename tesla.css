@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Poppins; 
+}
+
+
+.image{
+    width: 100%;
+    height:100vh;
+    background-image:url("https://tesla-cdn.thron.com/delivery/public/image/tesla/a269d7b4-87a9-4057-9ac5-2565e56a188e/bvlatuR/std/4096x2560/Homepage-Model-3-Desktop-LHD?quality=auto-medium&amp;format=auto");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px 30px;
+}
+
+.mainthree ul li{
+    display:inline-block;
+    align-items:center;
+    justify-content: center;
+    margin: 0px 20px;
+}
+
+.mainthree ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.maintwo ul li{
+    display: inline-block;
+    align-items:center;
+    justify-content: center;
+    margin: 0px 20px;
+}
+
+.maintwo ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.text{
+    text-align: center;
+    padding:50px;
+    
+}
+
+.text h1{
+    font-size:40px;
+}
+
+.click{ 
+    display: flex;
+    align-items:flex-end;
+    justify-content:center;
+    text-transform: capitalize;
+    margin-top: 18rem;
+}
+
+.clickone {
+    padding: 15px 107px;
+    margin:10px 30px;
+    border-radius: 30px;
+    background-color:black;
+    color: white;
+    opacity: 0.5;
+}
+
+.clickone a{
+    text-decoration: none;
+    color: white;
+}
+
+.clicktwo {
+    padding: 15px 107px;
+    margin: 10px 30px;
+    border-radius: 30px;
+    background-color:white;
+}
+
+.clicktwo a{
+    text-decoration:none;
+    color:black;
+
+}
+
+.imageone{
+    font-size: 40px;
+    text-align: center;
+    color:white;
+    margin:40px;
+    
+}
+
